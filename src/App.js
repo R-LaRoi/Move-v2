@@ -1,8 +1,14 @@
 import React from "react";
+import Meet from "./move/meet";
 import Nav from "./move/nav";
 
 function App() {
-  return <Nav />;
+  return (
+    <div className="move">
+      <Nav />
+      <Meet />
+    </div>
+  );
 }
 
 export default App;
