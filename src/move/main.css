@@ -3,7 +3,7 @@ body {
 }
 
 .main {
-  margin-top: 7rem;
+  margin-top: 15rem;
   margin-left: 4rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -15,29 +15,29 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
 
 
-
 }
 
 .card {
   margin-top: 10%;
-  background-color: #8251c2;
+  background-color: #5648fe;
   width: 320px;
-  height: 440px;
+  height: 450px;
   border-radius: 40px;
-  padding-left: 17%;
+ padding-left: 10%;
   padding-top: 10%;
   box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.1);
   color: rgb(236, 233, 232);
 
 }
 
-.day {
+.weekday {
   color: white;
   letter-spacing: 3px;
-  font-weight: 400;
-  font-size: 60px;
-  padding: 90px;
-
+  font-weight: 700;
+  font-size: 35px;
+  padding-bottom: 30px;
+ 
+  
 }
 
 
@@ -49,5 +49,6 @@ li {
   letter-spacing: 3px;
   font-family: 'poppins';
   font-weight: 400;
+  
 
 }

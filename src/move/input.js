@@ -34,7 +34,7 @@ export default function Input() {
         <ul>
           <li>{savedWrkout}</li>
         </ul>
-        <button>let's move</button>
+        <button id="today">today</button>
       </div>
     );
   else {

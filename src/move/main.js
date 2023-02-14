@@ -11,14 +11,7 @@ export default function Main(props) {
   return (
     <section className="main">
       <div className="card">
-        <div
-          className="weekday"
-          style={{
-            color: "#FD9C40",
-            fontSize: "30px",
-          }}
-          key={weekday.toString()}
-        >
+        <div className="weekday" key={weekday.toString()}>
           {" "}
           {weekday}
         </div>

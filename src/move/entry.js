@@ -8,19 +8,32 @@ export default function Entry() {
       <div className="card-entry">
         <div
           style={{
-            fontSize: "40px",
+            fontSize: "100px",
             fontFamily: "poppins",
-            fontWeight: "400",
-            letterSpacing: "2px",
+            fontWeight: "800",
+            letterSpacing: "3px",
             marginTop: "5%",
             paddingBottom: "60px",
+            color: "#ffff",
           }}
         >
-          {" "}
-          consistency is key
+          thursday
         </div>
       </div>
       <div className="card-entry-2" key={9}>
+        <div
+          style={{
+            position: "relative",
+            left: "30%",
+            top: "60%",
+            color: "#5648fe",
+            fontSize: "90px",
+            fontWeight: "800",
+            letterSpacing: "-4px",
+          }}
+        >
+          let's move
+        </div>
         <Input />
       </div>
     </div>

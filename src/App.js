@@ -8,12 +8,12 @@ const dailyRoutine = [
   {
     key: 1,
     id: 1,
-    day: "tue",
+    day: "wed",
     routine: ["jumping jacks", "push-ups", "inch worms", "burpees", "plank"],
   },
   {
     id: 2,
-    day: "wed",
+    day: "tue",
     key: 2,
     routine: [
       "bicep curls",
@@ -25,7 +25,7 @@ const dailyRoutine = [
   },
   {
     id: 3,
-    day: "thu",
+    day: "mon",
     key: 3,
     routine: [
       "jump rope",
