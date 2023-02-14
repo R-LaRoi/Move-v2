@@ -1,0 +1,8 @@
+footer{
+display: flex;
+margin-top: 5rem;
+margin-left: 1%;
+background-color: rgba(243, 219, 247, 0.447);
+padding: 30px;
+width: 100%;
+}

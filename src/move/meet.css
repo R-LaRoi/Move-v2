@@ -3,10 +3,9 @@ section {
  padding-top: 10%;
   font-family: "poppins";
   font-weight: 100;
+  display: flexbox;
 
 }
-
-
 
 
 .col-2 {
