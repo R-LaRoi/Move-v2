@@ -50,7 +50,7 @@ function App() {
   });
 
   return (
-    <div className="move">
+    <div className="container" style={{ boxSizing: "border-box" }}>
       <Nav />
       <Meet />
       <Entry />

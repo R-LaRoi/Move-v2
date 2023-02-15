@@ -9,9 +9,7 @@ export default function Nav() {
         <span className="wtm">what's the move</span>
         <span className="rachel-link">
           <a href="#about" style={{ textDecoration: "none" }}>
-            <i class="fa-brands fa-spotify"></i>
-            <i class="fa-brands fa-square-instagram"></i>
-            <i class="fa-regular fa-at"></i>
+            meet rachel
           </a>
         </span>
       </nav>

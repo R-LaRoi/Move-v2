@@ -3,32 +3,29 @@
   grid-row: 1fr;
   grid-template-columns: 1fr 1fr;
   grid-row: 1fr 1fr;
-  margin-top: 40%;
-  background-color: #E825D5;
-  height: 500px;
-  padding-top: 10%;
+  margin-top: 60%;
+  height: 400px;
   padding-left: 5%;
+  margin-left: -1%;
+  width: 100%;
+  background-color: #E825D5;
 }
 
 
 .card-entry-2 {
   position: relative;
-  right:50%;
-margin: 35%;
-  background-color: #fcfbfc;
   font-family: "Poppins";
   box-shadow: 0px 3px 12px 8px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   width: 650px;
-    height: 400px;
-    padding-bottom: 20px;
-
+    height: 500px;
+    background-color: #fcfbfc;
+    margin-top: -30%;
 }
 
 form{
-
-  margin-top: -20%;
- padding: 40px;
+  margin-top: 10%;
+  padding-left: 50px;
 
 }
 
@@ -39,7 +36,6 @@ textarea {
   height: 5em;
   background-color: #fcfbfc;
   width: 370px;
- 
   outline: none;
 font-size: 18px;
 
@@ -55,13 +51,16 @@ input[type=text] {
   border: none;
   border-radius: 20px;
   transition: width 0.3s ease-in-out;
-  padding-left: 5%;
+  
 
 }
 
 input[type=submit],
 button { 
-  border-radius: 20px;
+  border-radius: 10px;
+position:absolute;
+bottom: 18%;
+left:-3%;
     border: none;
     background-color: #E825D5;
     color: white;
@@ -69,7 +68,6 @@ button {
     height: 10%;
     margin-left: 12%;
     padding: 1rem;
-    margin-top: 15%;
     box-shadow: 0px 3px 2px 3px rgba(57, 56, 56, 0.1),
   
 }

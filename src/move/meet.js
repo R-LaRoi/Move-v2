@@ -16,11 +16,11 @@ https://user-images.githubusercontent.com/114012059/218713471-633594a8-adc7-4600
         <div className="col-2">
           <span
             style={{
-              fontSize: "100px",
+              fontSize: "120px",
               color: "#E825D5",
               fontWeight: "800",
               lineHeight: "70%",
-              letterSpacing: "1px",
+              letterSpacing: "4px",
             }}
           >
             consistency is key.
