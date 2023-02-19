@@ -14,20 +14,10 @@ https://user-images.githubusercontent.com/114012059/218713471-633594a8-adc7-4600
 
       <a href id="about">
         <div className="col-2">
-          <span
-            style={{
-              fontSize: "120px",
-              color: "#E825D5",
-              fontWeight: "800",
-              lineHeight: "70%",
-              letterSpacing: "4px",
-            }}
-          >
-            consistency is key.
-          </span>
+          <span className="header--vid">consistency is key.</span>
           <br />
           <br />
-          <p>
+          <p className="vid--text">
             always on. high energy unmatched. here to motivate you through every
             minute of your fitness journey. Focusing on body weight movements to
             help you strengthen, condition and improve balance. Rachel is ready
@@ -35,13 +25,6 @@ https://user-images.githubusercontent.com/114012059/218713471-633594a8-adc7-4600
             are. whenever you're ready. let's move!{" "}
           </p>
         </div>
-        <div
-          style={{
-            fontSize: "100px",
-            color: "#ffff",
-            fontWeight: "800",
-          }}
-        ></div>
       </a>
     </section>
   );

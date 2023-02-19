@@ -26,7 +26,6 @@ export default function Entry() {
           style={{
             marginLeft: "7%",
             marginTop: "7%",
-
             color: "#5648fe",
             fontSize: "40px",
             fontWeight: "800",

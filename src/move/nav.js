@@ -13,7 +13,6 @@ export default function Nav() {
           </a>
         </span>
       </nav>
-
       <img src={imagegrid} alt="woman excercising" />
       <div id="move"></div>
     </>
