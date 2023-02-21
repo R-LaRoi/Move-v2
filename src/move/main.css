@@ -1,29 +1,26 @@
 
 .main {
-  margin-top: 5rem;
-  margin-left: 4rem;
+  margin-top: 0;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.ex-log {
-  display: grid;
-  grid-row: 1 fr;
-  grid-template-columns: 1fr 1fr 1fr;
-
+  grid-template-columns: 1fr 1fr ;
 
 }
 
-.card {
-  margin-top: 10%;
+
+.column-1{padding: 20%;
   background-color: #5648fe;
-  width: 320px;
-  height: 450px;
-  border-radius: 40px;
- padding-left: 10%;
-  padding-top: 10%;
-  box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.1);
   color: rgb(236, 233, 232);
+
+
+}
+
+.column-2{
+  padding: 15%;
+  line-height: 45px;
+  font-size: 60px;
+  color: rgb(252, 248, 244);
+  font-family:'Permanent Marker', cursive;
+background-color: #892eea;
 
 }
 
@@ -31,21 +28,21 @@
   color: white;
   letter-spacing: 3px;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 45px;
   padding-bottom: 30px;
+font-family: "permanent marker";
  
   
 }
-
 
 li {
   list-style: none;
   font-size: 18px;
   padding: 1px;
-  line-height: 30px;
+  line-height: 25px;
   letter-spacing: 3px;
   font-family: 'poppins';
-  font-weight: 400;
+  font-weight: 600;
   
 
 }

@@ -2,46 +2,57 @@
   display: grid;
   grid-row: 1fr;
   grid-template-columns: 1fr 1fr;
-  grid-row: 1fr 1fr;
-  margin-top: 60%;
-  height: 400px;
-  padding-left: 5%;
-  margin-left: -1%;
-  width: 100%;
-  background-color: #E825D5;
+margin-left: -1%;
+margin-top: 15%;
+}
+
+.card-entry{
+  display: flex;
+margin-top: -30px;
 }
 
 
+.name{
+        position: absolute;
+          font-Size: 60px;
+        font-family: "permanent marker";
+          color: #f8f6f8;
+          font-weight: 700;
+          background-color: #5625e8df;
+          padding-left: 45px;
+      margin-top: 30px;
+      width: 270px;
+      }
+    
 .card-entry-2 {
-  position: relative;
   font-family: "Poppins";
   box-shadow: 0px 3px 12px 8px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
-  width: 650px;
-    height: 500px;
-    background-color: #fcfbfc;
-    margin-top: -30%;
+  background-color: #fcfbfc;
+  margin-left: 10%;
+  width: 100%;
 }
 
 form{
-  margin-top: 10%;
-  padding-left: 50px;
-
+margin-top: 20%;
+margin-left: 20%;
 }
 
 textarea {
   border: none;
   appearance: none;
   color: rgb(35, 34, 34);
-  height: 5em;
+  height: 300px;
   background-color: #fcfbfc;
-  width: 370px;
+  width: 400px;
   outline: none;
 font-size: 18px;
+border-radius: 20px;
+font-family: "poppins";
+padding: 40px 0px 0px 20px;
 
- 
+
 }
-
 
 input[type=text] {
   display: inline;
@@ -51,23 +62,47 @@ input[type=text] {
   border: none;
   border-radius: 20px;
   transition: width 0.3s ease-in-out;
+  color: white;
   
-
 }
 
 input[type=submit],
 button { 
-  border-radius: 10px;
-position:absolute;
-bottom: 18%;
-left:-3%;
+  background-color: rgb(121, 36, 232);
+    color: rgb(244, 242, 247);
+    font-size: 18px;
+    font-family: "poppins";
+    padding: 5px;
+    width: 120px;
+    height: 40px;
     border: none;
-    background-color: #E825D5;
-    color: white;
-    width: 15%;
-    height: 10%;
-    margin-left: 12%;
-    padding: 1rem;
-    box-shadow: 0px 3px 2px 3px rgba(57, 56, 56, 0.1),
+    border-radius: 10px;
+   
+
+}
+
+.list-routine{
+  padding-top: 10px; 
+  padding-right: 20px;
+  margin-left: 35%;
   
+}
+.weekday{
+  font-family: "poppins";
+
+}
+#move--button { background-color: white;
+  color: rgb(123, 23, 217);
+  font-size: 18px;
+  font-family: "poppins";
+padding: 5px;
+width: 120px;
+height: 40px;
+position: absolute;
+
+}
+
+#move--button:hover{
+  background-color: rgb(112, 49, 156);
+  color: white;
 }

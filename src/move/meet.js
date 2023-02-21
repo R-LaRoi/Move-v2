@@ -18,11 +18,12 @@ https://user-images.githubusercontent.com/114012059/218713471-633594a8-adc7-4600
           <br />
           <br />
           <p className="vid--text">
-            always on. high energy unmatched. here to motivate you through every
-            minute of your fitness journey. Focusing on body weight movements to
-            help you strengthen, condition and improve balance. Rachel is ready
-            to partner with you and push beyond your expectations. wherever you
-            are. whenever you're ready. let's move!{" "}
+            <b>meet rachel.</b> always on. high energy unmatched. here to
+            motivate you through every minute of your fitness journey. Focusing
+            on body weight movements to help you strengthen, condition and
+            improve balance. Rachel is ready to partner with you and push beyond
+            your expectations. wherever you are. whenever you're ready. let's
+            move!{" "}
           </p>
         </div>
       </a>

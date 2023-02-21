@@ -10,12 +10,16 @@ export default function Main(props) {
 
   return (
     <section className="main">
-      <div className="card">
+      <div className="column-1">
         <div className="weekday" key={weekday.toString()}>
           {" "}
           {weekday}
         </div>
         {listMoves}
+      </div>
+      <div className="column-2">
+        {" "}
+        <blockquote>don't count the days, make the days count </blockquote>
       </div>
     </section>
   );

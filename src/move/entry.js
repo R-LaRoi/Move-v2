@@ -1,39 +1,16 @@
 import React from "react";
 import Input from "./input.js";
 import "./entry.css";
+import pic2 from "./pic2.png";
 
 export default function Entry() {
   return (
     <div className="entry">
       <div className="card-entry">
-        <div
-          style={{
-            fontSize: "120px",
-            fontFamily: "poppins",
-            fontWeight: "800",
-            letterSpacing: "3px",
-            marginTop: "-54%",
-            paddingBottom: "60px",
-            color: " #5648fe",
-          }}
-        >
-          thursday
-        </div>
+        <span className="name"> rachel</span>
+        <img src={pic2} alt="woman excercising"></img>
       </div>
-
-      <div className="card-entry-2" key={9}>
-        <div
-          style={{
-            marginLeft: "7%",
-            marginTop: "7%",
-            color: "#5648fe",
-            fontSize: "40px",
-            fontWeight: "800",
-            letterSpacing: "-4px",
-          }}
-        >
-          feb 24
-        </div>
+      <div className="container" style={{ backgroundColor: "#E826d6" }}>
         <Input />
       </div>
     </div>

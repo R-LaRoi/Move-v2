@@ -10,30 +10,14 @@ const dailyRoutine = [
     key: 1,
     id: 1,
     day: "wed",
-    routine: ["jumping jacks", "push-ups", "inch worms", "burpees", "plank"],
-  },
-  {
-    id: 2,
-    day: "tue",
-    key: 2,
     routine: [
-      "bicep curls",
-      "shoulder press",
-      "skaters",
-      "burpees",
-      "broad jumps",
-    ],
-  },
-  {
-    id: 3,
-    day: "mon",
-    key: 3,
-    routine: [
-      "jump rope",
       "world's greatest stretch",
-      "mountain climbers",
-      "switch lunges",
-      "kettlebell swings",
+      "scoops",
+      "jump squats",
+      "burpees",
+      "push ups",
+      "plank",
+      "lunges",
     ],
   },
 ];
@@ -50,7 +34,10 @@ function App() {
   });
 
   return (
-    <div className="container" style={{ boxSizing: "border-box" }}>
+    <div
+      className="container"
+      style={{ overflow: "hidden", marginLeft: "-.5rem", marginRight: "-1rem" }}
+    >
       <Nav />
       <Meet />
       <Entry />
