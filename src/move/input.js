@@ -14,7 +14,6 @@ export default function Input() {
         placeholder="today i did..."
         onChange={logExercise}
       ></textarea>
-
       <input type="submit"></input>
     </form>
   );
