@@ -6,14 +6,16 @@ export default function Nav() {
   return (
     <>
       <nav>
-        <a
-          href="#about"
+        <div
+          className="#about"
           style={{
             textDecoration: "none",
             fontFamily: "poppins",
             fontSize: "30px",
           }}
-        ></a>
+        >
+          meet rachel
+        </div>
 
         <span className="rachel-link"></span>
       </nav>
