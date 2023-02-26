@@ -7,15 +7,17 @@ export default function Input() {
   const dayOfWeek = dayLog[dateLog.getDay()];
 
   const entryform = (
-    <form onSubmit={showWorkout}>
-      <textarea
-        className="enterExercise"
-        type="text"
-        placeholder="today i did..."
-        onChange={logExercise}
-      ></textarea>
-      <input type="submit"></input>
-    </form>
+    <div>
+      <form onSubmit={showWorkout}>
+        <textarea
+          className="enterExercise"
+          type="text"
+          placeholder="today i did..."
+          onChange={logExercise}
+        ></textarea>
+        <input type="submit"></input>
+      </form>
+    </div>
   );
 
   const [workout, setWorkout] = useState("");
@@ -53,7 +55,14 @@ export default function Input() {
             {savedWrkout}
           </li>
         </ul>
-        <button id="move--button">let's move</button>
+        <button
+          id="move--button"
+          onClick={function showForm() {
+            return { entryform };
+          }}
+        >
+          let's move
+        </button>
       </div>
     );
   else {

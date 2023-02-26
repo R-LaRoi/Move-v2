@@ -3,7 +3,6 @@ import Entry from "./move/entry";
 import Main from "./move/main";
 import Meet from "./move/meet";
 import Nav from "./move/nav";
-import Footer from "./move/footer";
 
 const dailyRoutine = [
   {
@@ -44,7 +43,6 @@ function App() {
       <div className="ex-log" key={info}>
         {info}
       </div>
-      <Footer />
     </div>
   );
 }
