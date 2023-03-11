@@ -1,8 +1,10 @@
-import React from "react";
+import DailyInput from "./move/dailyInput";
 import Entry from "./move/entry";
+import Input from "./move/input";
 import Main from "./move/main";
 import Meet from "./move/meet";
 import Nav from "./move/nav";
+import React, { useState } from "react";
 
 const dailyRoutine = [
   {
@@ -21,7 +23,7 @@ const dailyRoutine = [
   },
 ];
 
-function App() {
+function App(props) {
   const info = dailyRoutine.map((workout) => {
     return (
       <Main
@@ -40,6 +42,7 @@ function App() {
       <Nav />
       <Meet />
       <Entry />
+      <DailyInput />
       <div className="ex-log" key={info}>
         {info}
       </div>

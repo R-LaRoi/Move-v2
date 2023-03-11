@@ -2,70 +2,45 @@ import React, { useState } from "react";
 import "./entry.css";
 
 export default function Input() {
-  let dayLog = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
-  const dateLog = new Date();
-  const dayOfWeek = dayLog[dateLog.getDay()];
-
-  const entryform = (
-    <div>
-      <form onSubmit={showWorkout}>
-        <textarea
-          className="enterExercise"
-          type="text"
-          placeholder="today i did..."
-          onChange={logExercise}
-        ></textarea>
-        <input type="submit"></input>
-      </form>
-    </div>
-  );
-
   const [workout, setWorkout] = useState("");
-  const [savedWrkout, setSavedWrkout] = useState("");
+  const [dailyWorkout, setDailyWorkout] = useState(workout);
+  // const [savedWrkout, setSavedWrkout] = useState(
+  //   JSON.parse(localStorage.getItem("newWorkout")) || [] );
 
-  function showWorkout(event) {
-    event.preventDefault();
-    const newWorkout = workout;
-    setSavedWrkout(newWorkout);
+  // React.useEffect(() => {
+  //  localStorage.setItem("newWorkout", JSON.stringify(workout));
+  // }, [workout]);
+
+  function showWorkout(e) {
+    e.preventDefault();
+    setDailyWorkout(workout);
   }
 
-  function logExercise(event) {
-    event.preventDefault();
-    setWorkout(event.target.value);
+  function logExercise(e) {
+    setWorkout(e.target.value);
   }
 
-  if (savedWrkout)
+  console.log(dailyWorkout);
+  if (dailyWorkout)
     return (
-      <div className="list-routine">
-        <div
-          className="weekday"
-          style={{
-            fontSize: "60px",
-            fontWeight: "700",
-            paddingBottom: "0px",
-            marginLeft: "-20%",
-          }}
-        >
-          {dayOfWeek}
-        </div>
-        <ul>
-          <li
-            style={{ color: "white", paddingRight: "20%", marginLeft: "-20%" }}
-          >
-            {savedWrkout}
-          </li>
-        </ul>
-        <button
-          id="move--button"
-          onClick={function showForm() {
-            return { entryform };
-          }}
-        >
-          let's move
-        </button>
+      <div>
+        <div className="quote">...</div>
+        <button>let's move</button>
       </div>
     );
   else {
-    return <div>{entryform}</div>;
+    return (
+      <div>
+        <form onSubmit={showWorkout}>
+          <textarea
+            className="enterExercise"
+            type="text"
+            placeholder="today i did..."
+            onChange={logExercise}
+          ></textarea>
+          <input type="submit"></input>
+        </form>
+      </div>
+    );
   }
 }

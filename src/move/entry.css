@@ -106,3 +106,11 @@ position: absolute;
   background-color: rgb(112, 49, 156);
   color: white;
 }
+
+.quote{
+  margin-top:25%;
+  font-family: "permanent marker";
+  color: white;
+font-size: 75px;
+text-align: center;
+}

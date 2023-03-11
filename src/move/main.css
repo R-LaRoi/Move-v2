@@ -1,6 +1,6 @@
 
 .main {
-  margin-top: 0;
+  margin-top: -10px;
   display: grid;
   grid-template-columns: 1fr 1fr ;
 
@@ -8,7 +8,7 @@
 
 
 .column-1{padding: 20%;
-  background-color: #5648fe;
+  background-color: #e227a1;
   color: rgb(236, 233, 232);
 
 
@@ -20,7 +20,7 @@
   font-size: 60px;
   color: rgb(252, 248, 244);
   font-family:'Permanent Marker', cursive;
-background-color: #892eea;
+background-color: #5021ec;
 
 }
 
